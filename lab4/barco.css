@@ -1,0 +1,96 @@
+.barco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.barco .bandera {
+  width: 150px;
+  height: 70px; 
+  background-color: #B22222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.barco .bandera .bandera1 {
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid white;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  transform: rotate(180deg);
+  margin-left: 50px;
+}
+
+.barco .palito {
+  width: 8px;
+  height: 400px;
+  background: #002b66;
+  margin-right: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.barco .palito .banderas {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 291px 0 0 280px;
+  border-color: transparent transparent transparent #DCDCDC;
+  margin-right: -288px;
+  margin-top: -20px;
+}
+
+.barco .palito .izquierdo { 
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 291px 291px;
+  border-color: transparent transparent #B22222 transparent;
+  margin-right: 299px;
+  margin-top: -300px;
+}
+
+.barco .base { 
+  height: 145px;
+  width: 650px;
+  border-radius: 0 0 180px 180px;
+  background: #00008B;
+  margin-top: -25px;
+  margin-right: 150px;
+}
+
+.barco .base .peque {
+  width: 650px;
+  height: 15px; 
+  background: #B22222;
+  margin-left: 0px;
+  margin-top: -10px;
+}
+
+.barco .base .ventanas {
+  height:60px;
+  width: 0px;
+  border-radius: 45px;
+  background:white;
+  margin-left: 485px;
+  margin-top: 30px;
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.barco .base .ventanas .ventana {
+  height:60px;
+  width:60px;
+  border-radius: 45px;
+  background:white;
+  margin-left: -310px;
+  margin-top: 0px;
+}
